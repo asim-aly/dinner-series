@@ -1,0 +1,59 @@
+#B-G{
+    background: #F6F6F6;
+
+}
+.membership-main{
+    height: 76vh;
+    background: url(./pics/membership.png);
+    color: white;
+}
+.membership-main h1{
+    margin-left: 37%;
+    margin-top: 250px;
+}
+.membership-header{
+    text-align: center;
+}
+.cross-btn{
+    float: right;
+}
+.membership-submit-btn{
+    background-color: black;
+    color: white;
+    width: 400px;
+}
+/* footer */
+footer{
+    background-color: black;
+}
+.btn{
+    width: 100%;
+}
+a{
+    text-decoration: none;
+}
+button{
+    background: rgba(255, 255, 255, 0.35);
+}
+#home-input{
+    border: none;
+    border-bottom: 2px solid #999999;
+    background-color: rgb(246 246 246);
+}
+
+/* navbar */
+
+#navbar-ui{
+    color: white;
+}
+#navbar{
+    font-family: "Times New Roman", Times, serif;
+    background-color:rgba(0, 0, 0, 0.507);
+}
+#nav-div{
+    margin-left: 100px;
+}
+#navbar-signin-btn{
+    color: white;
+    align-items: end;
+}       

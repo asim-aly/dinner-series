@@ -1,0 +1,86 @@
+#main-div{
+    background-color: #F6F6F6;
+}
+.home-main{
+    height: 90vh;
+    color: white;
+    justify-content: center;
+    background: url(./pics/home\ pic.png);
+}
+#navbar-ui{
+    color: white;
+}
+#navbar{
+    font-family: "Times New Roman", Times, serif;
+    background-color:rgba(0, 0, 0, 0.507);
+}
+#nav-div{
+    margin-left: 100px;
+}
+.home-heading-div{
+    margin-left: auto;
+    text-align: center;
+    margin-right: auto;
+    width: 75%;
+    margin-top: 150px;
+    background-color:rgba(0, 0, 0, 0.432);
+}
+.home-heading-div h1{
+    font-family: "Times New Roman", Times, serif;
+
+}
+#navbar-signin-btn{
+    color: white;
+    align-items: end;
+}
+#home-submit-btn{
+    color: white;
+    border: 1px solid white;
+    background-color:rgba(255, 255, 255, 0.425);
+
+    width: 200px;
+}
+#about-sec{
+    height: 76vh;
+    color: white;
+    background: url(./pics/aboutus\ pic.png);
+}
+#about-div{
+    width: 75%;
+}
+#about-read-btn{
+    color: white;
+    background-color:rgba(255, 255, 255, 0.425);
+    width: 200px;
+    color: white;
+    border: 1px solid white;
+}
+#gallery{
+    width: 75%;
+    text-align: center;
+}
+#gallery-btn{
+    color: white;
+    background-color: black;
+    width: 200px;
+}
+
+/* footer */
+
+footer{
+    background-color: black;
+}
+.btn{
+    width: 100%;
+}
+a{
+    text-decoration: none;
+}
+button{
+    background: rgba(255, 255, 255, 0.35);
+}
+#home-input{
+    border: none;
+    border-bottom: 2px solid #999999;
+    background-color: rgb(246 246 246);
+}

@@ -1,0 +1,64 @@
+
+.dinner{
+background-color:   #F6F6F6
+;
+}
+.dinner-main{
+    height: 76vh;
+    background: url(./pics/dinner.png);
+    color: white;
+}
+.dinner-main h1{
+    margin-left: 37%;
+    margin-top: 200px;
+}
+.dinner-header{
+    text-align: center;
+}
+#dinner-submit-btn{
+    color: white;
+    background-color: black;
+    width: 200px;
+}
+#card-img{
+    margin-left: 20px;
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+#navbar-ui{
+    color: white;
+}
+#navbar{
+    font-family: "Times New Roman", Times, serif;
+    background-color:rgba(0, 0, 0, 0.507);
+}
+#nav-div{
+    margin-left: 100px;
+}
+#navbar-signin-btn{
+    color: white;
+    align-items: end;
+}
+
+            /* footer */
+
+            footer{
+    background-color: black;
+}
+.btn{
+    width: 100%;
+    
+}
+a{
+    text-decoration: none;
+}
+button{
+    background: rgba(255, 255, 255, 0.35);
+}
+#home-input{
+    border: none;
+    border-bottom: 2px solid #999999;
+    background-color: rgb(246 246 246);
+
+
+}

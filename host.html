@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./host.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/js/all.min.js" integrity="sha512-rpLlll167T5LJHwp0waJCh3ZRf7pO6IT1+LZOhAyP6phAirwchClbTZV3iqL3BMrVxIYRbzGTpli4rfxsCK6Vw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <title>host</title>
+</head>
+<body>
+    <section id="Host">
+        <div class="container-fluid">
+            <div class="row justify-content-center">
+                <div class="host-main">
+                    <nav class="navbar navbar-expand-lg navbar-light " id="navbar">
+                        <div class="container-fluid">
+                          <a class="navbar-brand  text-decoration-none text-white ms-5 m-2" href="#"><img src="./pics/navbar log.png"
+                              alt=""></a>
+                          <div class="collapse navbar-collapse fs-5" id="nav-div">
+                            <ul class="navbar-nav d-flex justify-content-center">
+                              <li class="nav-item">
+                                <a class="nav-link active  text-decoration-none text-white p-3" aria-current="page" href="">Home</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link text-decoration-none text-white p-3" href="./dinner.html">Upcoming Dinner</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link text-decoration-none text-white p-3" href="./host.html">Become a Host</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link text-decoration-none text-white p-3" href="#">RSVP</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link text-decoration-none text-white p-3" href="./membership.html">Memnership</a>
+                              </li>
+                            </ul>
+                          </div>
+                          <div>
+                            <button type="button" class="btn btn-outline-secondar m-2" id="navbar-signin-btn"><a href="./signup.html"
+                                class="text-decoration-none text-reset">Sign In</a></button>
+                          </div>
+                        </div>
+                      </nav>
+                    <h1>Become a Host</h1>
+                </div>
+                <div class="col-md-8">
+                    <div class="">
+
+                        
+                        <div class="host-header fs-1 m-5">Apply to become a host</div>
+                        <div class="card card-body fs-5" id="host-form">
+                            <form class="form-horizontal" method="post" action="#">
+
+                                <div class="form-group">
+                                    <div class="cols-sm-10">
+                                        <div class="cross-btn">
+                                            <button class="border-0 bg-transparent fs-4"><i class="fa-solid fa-xmark"></i></button>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                    <div class="form-group">
+                                    <label for="name" class="cols-sm-2 control-label m-2 fw-bolder mt-5">First Name</label>
+                                    <div class="cols-sm-10">
+                                        <div class="input-group">
+                                            <input type="text" class="form-control p-3" name="name" id="name" placeholder="Enter your First Name" />
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="name" class="cols-sm-2 control-label m-2 fw-bolder">Last Name</label>
+                                    <div class="cols-sm-10">
+                                        <div class="input-group">
+                                            <input type="text" class="form-control p-3" name="name" id="name" placeholder="Enter your Last Name" />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="email" class="cols-sm-2 control-label m-2 fw-bolder">Email Address</label>
+                                    <div class="cols-sm-10">
+                                        <div class="input-group">
+                                            <input type="text" class="form-control p-3" name="email" id="email" placeholder="Enter your email address" />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="email" class="cols-sm-2 control-label m-2 fw-bolder">LinkedIn</label>
+                                    <div class="cols-sm-10">
+                                        <div class="input-group">
+                                            <input type="text" class="form-control p-3" name="email" id="email" placeholder="LinkedIn link" />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <textarea name="txtMsg" class="form-control p-3 mt-3" placeholder="Your Message " style="width: 100%; height: 150px;"></textarea>
+                                </div>
+                                <div class="form-group">
+                                    <label for="email" class="cols-sm-2 control-label m-2 fw-bolder">Have you hosted a dinner before? tell us about it.</label>
+                                    <div class="cols-sm-10">
+                                        <div class="input-group">
+                                            <input type="text" class="form-control p-3" name="email" id="answer-inpt" placeholder="Answer.." />
+                                        </div>
+                                    </div>                                        
+                                </div><div class="form-group">
+                                    <label for="email" class="cols-sm-2 control-label m-2 fw-bolder">Can you host twelve guest at your home?</label>
+                                    <div class="cols-sm-10">
+                                        <div class="input-group">
+                                            <input type="text" class="form-control p-3" name="email" id="answer-inpt" placeholder="Answer.." />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group div d-flex justify-content-center">
+                                    <button type="button" class="host-submit-btn btn btn-outline-secondar m-4">Submit</button>
+                                </div>
+                            </form>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="container-fluid">
+                    <footer class="text-center text-lg-start text-white">
+                      <div class="container p-4 pb-0" id="footer">
+                        <section class="">
+                          <div class="row">
+                            <div class="col-lg-4 col-md-6 mb-md-0">
+                              <div class="footer-logo">
+                                <img src="./pics/footer-pic.png" alt="">
+                              </div>
+                              <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Molestiae modi cum ipsam ad, illo possimus laborum ut
+                                reiciendis obcaecati. Ducimus, quas. Corrupti, pariatur eaque?
+                                Reiciendis assumenda iusto sapiente inventore animi?
+                              </p>
+                              <button type="button" class="footer-btn1 btn btn-secondary">Become a Member</button>
+                              <button type="button" class="footer-btn2 btn btn-secondary mt-2">Become a Host</button>
+                            </div>
+                            <div class="col-lg-2 col-md-6 mb-4 mb-md-0 ms-5 ">
+                              <h5 class="text-uppercase mt-5">About Us</h5>
+            
+                              <ul class="list-unstyled mb-0 mt-5">
+                                <li>
+                                  <a href="./index.html" class="text-white">Home</a>
+                                </li>
+                                <li>
+                                  <a href="./dinner.html" class="text-white">Upcoming Dinner</a>
+                                </li>
+                                <li>
+                                  <a href="#!" class="text-white">RSVP</a>
+                                </li>
+                                <li>
+                                  <a href="./about.html" class="text-white">About Us</a>
+                                </li>
+                                <li>
+                                  <a href="#!" class="text-white">FAQS</a>
+                                </li>
+                                <li>
+                                  <a href="#!" class="text-white">Privacy & Policy</a>
+                                </li>
+                                <li>
+                                  <a href="#!" class="text-white">Code of Conduct</a>
+                                </li>
+                              </ul>
+                            </div>
+                            <div class="col-lg-2 col-md-6 mb-4 mb-md-0">
+                              <h5 class="text-uppercase mt-5">Follow Us</h5>
+            
+                              <ul class="list-unstyled mb-0 mt-5">
+                                <li>
+                                  <a href="#!" class="text-white">Instragram</a>
+                                </li>
+                                <li>
+                                  <a href="#!" class="text-white">Pinterest</a>
+                                </li>
+                                <li>
+                                  <a href="#!" class="text-white">TikTok</a>
+                                </li>
+                              </ul>
+                            </div>
+                            <div class="col-lg-2 col-md-6 mb-4 mb-md-0">
+                              <h5 class="text-uppercase mt-5">Contact Us</h5>
+                              <button type="button" class="btn2 btn btn-secondary mt-5">Contact Now</button>
+                            </div>
+                          </div>
+                        </section>
+                        <hr class="mb-4" />
+                      </div>
+                      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+                        © 2020 Copyright:
+                        <a class="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+                      </div>
+                    </footer>
+                  </div>
+            </div>
+        </div>
+
+    </section>
+</body>
+</html>

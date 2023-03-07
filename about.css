@@ -1,0 +1,61 @@
+#about-main{
+    background: #F6F6F6;
+
+}
+.aboutus-pic{
+    background-image: url(./pics/aboutus\ pic.png);
+    height: 80vh;
+    text-align: center;
+    background-color:  #F6F6F6;
+    background-repeat: no-repeat;
+}
+.all-txt{
+    margin-left: 100px;
+}
+
+.heading{
+    color: white;
+    padding-top: 200px;
+}
+
+.about-txt{
+    background-color:  #F6F6F6;
+    text-align: center;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+/* footer */
+footer{
+    background-color: black;
+}
+.btn{
+    width: 100%;
+}
+a{
+    text-decoration: none;
+}
+button{
+    background: rgba(255, 255, 255, 0.35);
+}
+#home-input{
+    border: none;
+    border-bottom: 2px solid #999999;
+    background-color: rgb(246 246 246);
+}
+
+/* navbar */
+
+#navbar-ui{
+    color: white;
+}
+#navbar{
+    font-family: "Times New Roman", Times, serif;
+    background-color:rgba(0, 0, 0, 0.507);
+}
+#nav-div{
+    margin-left: 100px;
+}
+#navbar-signin-btn{
+    color: white;
+    align-items: end;
+}  
